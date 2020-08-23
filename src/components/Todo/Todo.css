@@ -1,0 +1,37 @@
+.Todo {
+    width: 700px;
+    height: 700px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.TodoItem {
+
+    /* display: inline; */
+
+    border-bottom: 1px solid black;
+    width: 300px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 200px;
+
+}
+
+.TodoItem  span {
+    color:  red;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.Filters p{
+    display: inline;
+    padding: 10px;
+}
+
+.active {
+    border: 1px solid red;
+    border-radius: 10px;
+}
